@@ -1,0 +1,3 @@
+class OutingContestantsController < ApplicationController
+
+end
