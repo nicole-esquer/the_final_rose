@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   resources :contestants
 
-  post "/outings/contestants/", to: "contestant_outings#create"
+  post "/contestants/:contestant_id/outings", to: "contestant_outings#create"
 end
